@@ -24,6 +24,7 @@ public class StartSelenium {
 //wd.get("https://contacts-app.tobbymarshall815.vercel.app/home\n");
         wd.navigate().to("https://contacts-app.tobbymarshall815.vercel.app/home");
         WebElement element1 = wd.findElement(By.tagName("div"));
+
         List<WebElement> list = wd.findElements(By.tagName("div"));
         WebElement element2 = wd.findElement(By.id("root"));
 

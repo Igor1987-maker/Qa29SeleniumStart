@@ -27,6 +27,12 @@ public class LoginPhoneBook {
 
     }
 
+    @Test
+    public void logintTestXpath(){
+
+
+    }
+
     public void type(By locator, String text) {
         WebElement element = wd.findElement(locator);
         element.click();

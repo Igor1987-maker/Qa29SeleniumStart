@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54cb2e22-5c51-47aa-a9d8-07eaa81643f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoginPhoneBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DemoQa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginPhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginPhoneBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StartSelenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StartSelenium.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +69,28 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestWork" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="RunManager" selected="Gradle.LoginPhoneBook">
+  <component name="RunManager" selected="Gradle.DemoQa">
+    <configuration name="DemoQa" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;DemoQa&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="LoginPhoneBook" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -133,6 +156,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DemoQa" />
         <item itemvalue="Gradle.LoginPhoneBook" />
         <item itemvalue="Gradle.LoginPhoneBook.loginTest" />
         <item itemvalue="Gradle.StartSelenium" />
